@@ -5,7 +5,9 @@ colorFrom: blue
 colorTo: purple
 sdk: docker
 pinned: false
+license: mit
 app_port: 7860
+short_description: Transcribe audio and identify speakers using Whisper and pyannote
 ---
 
 # Audio Transcription & Diarization API
@@ -23,7 +25,7 @@ Transcribe audio files and identify speakers using Whisper and pyannote-audio.
 ## Usage
 
 ```bash
-curl -X POST "https://YOUR-USERNAME-SPACE-NAME.hf.space/process-audio" \
+curl -X POST "https://hariantara-transcribe-diarization-server.hf.space/process-audio" \
   -F "file=@audio.mp3" \
   -F "language=en"
 ```
