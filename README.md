@@ -7,7 +7,7 @@ sdk: docker
 pinned: false
 license: mit
 app_port: 7860
-short_description: Transcribe audio and identify speakers using Whisper and pyannote
+short_description: Transcribe audio and identify speakers
 ---
 
 # Audio Transcription & Diarization API
